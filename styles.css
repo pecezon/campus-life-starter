@@ -1,0 +1,141 @@
+/*
+Global Styling
+*/
+
+*{
+ margin: 0;
+ padding: 0; 
+ font-family:Arial, Helvetica, sans-serif;  
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+h4{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 0.75rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.main-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1.25rem;
+}
+
+/*
+Styling for banner section
+*/
+
+#banner{
+    height: 50vh;
+    max-height: 300px;
+    background-color: beige;
+    flex-direction: column;
+}
+
+/*
+Styling for navigation section
+*/
+
+#navigation{
+    background-color: azure;
+}
+
+#navigation ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+
+/*
+Styling for organizations & events section
+*/
+
+#organizations, #events{
+    align-items: start;
+    text-align: center;
+}
+
+.organization, .event-card{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 20%;
+    text-align: left;
+    gap: 0.5rem;
+}
+
+.organization img, .event-card img{
+    object-fit:contain;
+    width: 150px;
+    height: 150px;
+}
+
+/*
+Styling for news section
+*/
+
+#news{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.news-side{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 40%;
+    padding: 0.5rem;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.news-side img{
+    width: 90%;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#getting-to-campus{
+    flex-direction: column;
+}
+
+#getting-to-campus iframe{
+    width: 70%;
+    max-height: 600px;
+    max-width: 1200px;
+}
+
+
